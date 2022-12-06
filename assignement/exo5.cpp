@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+void exo5(){
     cout<<"Veuillew saisir un nombre: ";
     string nombre;
     cin>>nombre;
@@ -13,5 +13,4 @@ int main(){
     }
     cout<<"Votre nombre inverse est: "<<nbrReversed;
     
-    return 0;
 }

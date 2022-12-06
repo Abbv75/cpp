@@ -2,23 +2,21 @@
 
 using namespace std;
 
-int main(){
+void exo7(){
     cout<<"Veuillew saisir un nombre entier.\n";
-    int fact=0;
+    int fact=1;
     int nombre;
 
     cin>>nombre;
 
     if(nombre<0){
-        fact=NULL;
+        cout<<"Impossible";
     }
-    else if(nombre==0){
-        
+    else{
+        for(int i=1; i<=nombre; i++){
+            fact*=i;
+        }
+        cout<< "Le factoriel est : "<<fact;
     }
-
-    for(int i=0; i<10; i++){
-        s+=tmpNbr;
-    }
-    cout<< "La somme de vos 10 nombres est: "<<s;
-    return 0;
+    
 }

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(){
+void exo2(){
     int nbr;
     do{
         cout<<"Saisissez votre nombre: ";
@@ -16,7 +16,4 @@ int main(){
     }
 
     cout<<"Le nombre est constitue de "<<--i<< " chiffres";
-    
-    return 0;
-
 }

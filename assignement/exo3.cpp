@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+void exo3(){
     cout<<"Veuillew saisir 10 entiers.\n";
     int s=0;
     int tmpNbr;
@@ -11,5 +11,4 @@ int main(){
         s+=tmpNbr;
     }
     cout<< "La somme de vos 10 nombres est: "<<s;
-    return 0;
 }
